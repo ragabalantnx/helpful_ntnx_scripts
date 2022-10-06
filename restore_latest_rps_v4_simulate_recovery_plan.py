@@ -82,4 +82,5 @@ if PRINT_ONLY != "print_only":
 #      print response_json
       print "Submitted restore request for {}".format(rp)
     print "Sleep after submitting {} requests".format(len(rp_list))
-    time.sleep(100)
+    print "Sleeping for 50 secs"
+    time.sleep(50)
